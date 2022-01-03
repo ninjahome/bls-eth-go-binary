@@ -50,7 +50,7 @@ Check functions:
 # How to run `examples/sample.go`
 
 ```
-go get github.com/herumi/bls-eth-go-binary/
+go get github.com/ninjahome/bls-eth-go-binary/
 go run examples/sample.go
 ```
 

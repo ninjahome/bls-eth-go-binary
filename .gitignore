@@ -2,3 +2,7 @@ obj/*.o
 CVS
 /ios/
 /android/obj/
+/.idea/.gitignore
+/.idea/bls-eth-go-binary.iml
+/.idea/modules.xml
+/.idea/vcs.xml
