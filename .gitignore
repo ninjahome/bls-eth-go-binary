@@ -6,3 +6,4 @@ CVS
 /.idea/bls-eth-go-binary.iml
 /.idea/modules.xml
 /.idea/vcs.xml
+/ios_sim/
