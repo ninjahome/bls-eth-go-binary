@@ -100,7 +100,7 @@ IOS_LIB=libbls$(CURVE_BIT).a
 IOS_LIBS=ios/armv7/$(IOS_LIB) ios/arm64/$(IOS_LIB) ios/x86_64/$(IOS_LIB) ios/i386/$(IOS_LIB)
 ios:
 	$(MAKE) each_ios PLATFORM="iPhoneOS" ARCH=armv7 BIT=32 UNIT=4
-	$(MAKE) each_ios PLATFORM="iPhoneOS" ARCH=arm64 BIT=64 UNIT=8
+	$(MAKE) each_ios PLATFORM="iPhoneSimulator" ARCH=arm64 BIT=64 UNIT=8
 	$(MAKE) each_ios PLATFORM="iPhoneSimulator" ARCH=x86_64 BIT=64 UNIT=8
 	$(MAKE) each_ios PLATFORM="iPhoneSimulator" ARCH=i386 BIT=32 UNIT=4
 	@echo $(IOS_LIBS)
